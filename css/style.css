@@ -8,3 +8,44 @@ body {
 }
 
 
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 32px;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2196f3;
+    letter-spacing: 1px;
+}
+.logo span {
+    color: #43c06d;
+}
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+.nav-list li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.nav-list li a:hover, .nav-list li a.active {
+    color: #2196f3;
+}
