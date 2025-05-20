@@ -7,7 +7,6 @@ body {
     color: #222;
 }
 
-
 header {
     background: #fff;
     box-shadow: 0 2px 8px rgba(0,0,0,0.03);
@@ -49,3 +48,54 @@ header {
 .nav-list li a:hover, .nav-list li a.active {
     color: #2196f3;
 }
+
+.hero {
+    background: linear-gradient(180deg, #3897e9 0%, #3b8edc 100%);
+    color: #fff;
+    text-align: center;
+    padding: 110px 20px 120px 20px;
+}
+.hero-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 32px;
+}
+.hero-btns {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+.btn {
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    display: inline-block;
+}
+.btn-main {
+    background: #2176f3;
+    color: #fff;
+}
+.btn-main:hover {
+    background: #1761c7;
+}
+.btn-alt {
+    background: #43c06d;
+    color: #fff;
+}
+.btn-alt:hover {
+    background: #369e56;
+}
+
