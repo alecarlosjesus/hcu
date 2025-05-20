@@ -99,3 +99,60 @@ header {
     background: #369e56;
 }
 
+.solucoes {
+    background: #fff;
+    padding: 60px 0 40px 0;
+    text-align: center;
+}
+.solucoes h2 {
+    color: #2176f3;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.solucoes p {
+    color: #666;
+    margin-bottom: 40px;
+}
+.solucoes-list {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.sol-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(56,151,233,0.08);
+    padding: 28px 22px 32px 22px;
+    width: 320px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+.sol-card:hover {
+    box-shadow: 0 8px 32px rgba(56,151,233,0.16);
+    transform: translateY(-4px) scale(1.02);
+}
+.sol-card img {
+    width: 100%;
+    height: 140px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 18px;
+}
+.sol-card h3 {
+    color: #2176f3;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.sol-card p {
+    color: #444;
+    font-size: 1rem;
+    margin-bottom: 18px;
+}
