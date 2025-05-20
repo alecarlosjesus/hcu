@@ -156,3 +156,13 @@ header {
     font-size: 1rem;
     margin-bottom: 18px;
 }
+
+.profile-img {
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 12px rgba(56,151,233,0.10);
+    background: #eaf3fa;
+}
