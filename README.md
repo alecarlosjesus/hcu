@@ -6,6 +6,12 @@ Este espaço reúne os códigos, páginas e conteúdos desenvolvidos para facili
 
 ---
 
+## 📑 Objetivo do projeto
+
+Facilitar a inclusão digital e o atendimento humanizado aos pacientes do Hospital das Clínicas, oferecendo um portal intuitivo e acessível.
+
+---
+
 ## 📚 Conteúdo
 
 - Página inicial do HCBridge
@@ -15,11 +21,34 @@ Este espaço reúne os códigos, páginas e conteúdos desenvolvidos para facili
 
 ---
 
-## 💻 Tecnologias utilizadas
+## 📁 Estrutura de pastas e arquivos
+
+- `index.html`: Página principal do portal
+- `css/style.css`: Estilos do site
+- `js/script.js`: Scripts JavaScript
+- `assets/img/`: Imagens utilizadas no projeto
+
+---
+
+## 💻 Tecnologia utilizada
 
 - HTML5 & CSS3 (puro)
 - JavaScript (básico)
 - Git & GitHub
+
+---
+
+## 👥 Integrantes
+
+- Pedro De Matos (RM: 564184)
+- Thiago Andrade (RM: 562493)
+- Vitor Hugo de Souza (RM: 559349)
+
+---
+
+## 🔗 Endereço do repositório no GITHUB
+
+[https://github.com/seu-usuario/HCBridge](https://github.com/seu-usuario/HCBridge)
 
 ---
 
