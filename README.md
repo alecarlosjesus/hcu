@@ -12,7 +12,6 @@ Este espaço reúne os códigos, páginas e conteúdos desenvolvidos para facili
 - Seção de soluções digitais
 - Página da equipe
 - Layout responsivo
-- Materiais complementares
 
 ---
 
@@ -20,7 +19,6 @@ Este espaço reúne os códigos, páginas e conteúdos desenvolvidos para facili
 
 - HTML5 & CSS3 (puro)
 - JavaScript (básico)
-- Google Fonts (Montserrat)
 - Git & GitHub
 
 ---
