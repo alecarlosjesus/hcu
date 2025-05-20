@@ -219,3 +219,24 @@ header {
     margin-bottom: 28px;
 }
 
+
+.footer {
+    background: #23272b;
+    color: #fff;
+    padding: 0;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 18px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.footer-col {
+    flex: 1;
+    text-align: center;
+}
+
