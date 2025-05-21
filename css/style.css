@@ -240,3 +240,141 @@ header {
     text-align: center;
 }
 
+@media (max-width: 900px) {
+    .solucoes-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .sobre-box {
+        flex-direction: column;
+        gap: 28px;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav, .footer {
+        max-width: 1000px;
+        padding: 18px 16px;
+    }
+    .sobre-box {
+        max-width: 900px;
+    }
+}
+@media (max-width: 992px) {
+    .nav, .footer {
+        max-width: 800px;
+        padding: 18px 10px;
+    }
+    .sobre-box {
+        max-width: 700px;
+    }
+    .solucoes-list {
+        gap: 20px;
+    }
+    .sol-card {
+        width: 280px;
+        padding: 20px 12px 24px 12px;
+    }
+}
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        padding: 12px 8px;
+    }
+    .nav-list {
+        gap: 16px;
+        font-size: 0.95rem;
+    }
+    .hero {
+        padding: 60px 10px 60px 10px;
+    }
+    .sobre-box {
+        flex-direction: column;
+        gap: 24px;
+        max-width: 95vw;
+    }
+    .sobre-img {
+        width: 100%;
+        max-width: 350px;
+        height: 180px;
+    }
+    .solucoes-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
+    .sol-card {
+        width: 95vw;
+        max-width: 350px;
+    }
+    .footer {
+        flex-direction: column;
+        gap: 8px;
+        max-width: 95vw;
+        padding: 12px 0;
+    }
+}
+@media (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 4px;
+    }
+    .logo {
+        font-size: 1.1rem;
+    }
+    .nav-list {
+        gap: 8px;
+        font-size: 0.9rem;
+    }
+    .hero h1 {
+        font-size: 1.3rem;
+    }
+    .hero p, .cta p {
+        font-size: 0.98rem;
+    }
+    .hero {
+        padding: 32px 4px 32px 4px;
+    }
+    .sobre-img {
+        max-width: 98vw;
+        height: 120px;
+    }
+    .sobre-info h2, .cta h2, .solucoes h2 {
+        font-size: 1.2rem;
+    }
+    .sol-card {
+        width: 98vw;
+        max-width: 98vw;
+        padding: 12px 4px 16px 4px;
+    }
+    .sol-card h3 {
+        font-size: 1rem;
+    }
+    .sol-card p {
+        font-size: 0.95rem;
+    }
+    .footer {
+        font-size: 0.95rem;
+        padding: 8px 0;
+    }
+}
+@media (max-width: 400px) {
+    .sobre-img {
+        height: 80px;
+    }
+    .sol-card img {
+        height: 80px;
+    }
+    .btn {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
