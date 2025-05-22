@@ -20,3 +20,23 @@ function setupFaqDropdown() {
 if (document.querySelector('.faq-list')) {
     setupFaqDropdown();
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('cadastroForm');
+    if (form) {
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            const nome = document.getElementById('nome').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const senha = document.getElementById('senha').value.trim();
+
+            if (!nome || !email || !senha) {
+                alert('Por favor, preencha todos os campos.');
+                return;
+            }
+
+            alert('Cadastro concluído com sucesso!');
+            window.location.href = '../index.html';
+        });
+    }
+});

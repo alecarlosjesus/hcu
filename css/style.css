@@ -158,13 +158,13 @@ header {
 }
 
 .profile-img {
-    width: 110px;
-    height: 110px;
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 50%;
-    margin-bottom: 16px;
-    box-shadow: 0 2px 12px rgba(56,151,233,0.10);
-    background: #eaf3fa;
+    border: 3px solid #3a8dde;
+    margin-bottom: 12px;
+    box-shadow: 0 2px 8px rgba(58,141,222,0.10);
 }
 
 .sobre {
@@ -219,25 +219,23 @@ header {
     margin-bottom: 28px;
 }
 
-
 .footer {
-    background: #23272b;
+    width: 100vw;
+    max-width: 100vw;
+    background: #232629;
     color: #fff;
-    padding: 0;
-}
-.footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 18px 0;
-    font-size: 1rem;
-    font-weight: 500;
+    padding: 28px 0 24px 0;
+    margin: 0;
+    gap: 0;
 }
 .footer-col {
-    flex: 1;
+    flex: 1 1 0;
     text-align: center;
+    font-weight: 600;
+    font-size: 1.08rem;
 }
 
 @media (max-width: 900px) {
@@ -252,6 +250,10 @@ header {
     .footer {
         flex-direction: column;
         gap: 10px;
+        padding: 18px 0 16px 0;
+    }
+    .footer-col {
+        padding: 4px 0;
     }
 }
 
@@ -432,4 +434,118 @@ header {
   .faq-list {
     max-width: 98vw;
   }
+}
+.cadastro-container {
+    max-width: 370px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+    padding: 32px 28px 28px 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Gradiente de fundo para a página de cadastro */
+    position: relative;
+    z-index: 1;
+}
+.cadastro-bg {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(135deg, #3a8dde 0%, #6ec6f7 100%);
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.cadastro-container h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: #222;
+    letter-spacing: 0.5px;
+}
+#cadastroForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+#cadastroForm label {
+    font-weight: 500;
+    margin-bottom: 2px;
+    color: #222;
+}
+.input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.input-icon input {
+    width: 100%;
+    padding: 10px 12px 10px 38px;
+    border: 1.5px solid #e0e0e0;
+    border-radius: 24px;
+    font-size: 1rem;
+    background: #f8f8f8;
+    outline: none;
+    transition: border 0.2s;
+}
+.input-icon input:focus {
+    border: 1.5px solid #3a8dde;
+    background: #fff;
+}
+.input-icon .icon {
+    position: absolute;
+    left: 12px;
+    font-size: 1.1rem;
+    color: #3a8dde;
+    pointer-events: none;
+}
+.cadastro-container .btn-main {
+    width: 100%;
+    margin-top: 16px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 24px;
+    background: linear-gradient(90deg, #3a8dde 0%, #6ec6f7 100%);
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    box-shadow: 0 2px 8px rgba(255,126,95,0.10);
+}
+.cadastro-container .btn-main:hover {
+    background: linear-gradient(90deg, #6ec6f7 0%, #3a8dde 100%);
+}
+@media (max-width: 480px) {
+    .cadastro-container {
+        padding: 18px 6vw 18px 6vw;
+    }
+}
+.quem-somos {
+    max-width: 600px;
+    margin: 32px auto 0 auto;
+    padding: 18px 24px;
+    background: rgba(255,255,255,0.98);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(58,141,222,0.06);
+    color: #222;
+}
+.quem-somos h3 {
+    margin-bottom: 8px;
+    color: #3a8dde;
+    font-weight: 700;
+}
+.quem-somos p {
+    color: #222;
+    font-size: 1.08rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 0.5em;
+}
+@media (max-width: 700px) {
+    .quem-somos {
+        padding: 12px 6vw;
+    }
 }
