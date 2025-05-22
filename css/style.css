@@ -393,6 +393,9 @@ header {
   max-width: 700px;
   margin: 0 auto;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 .faq-item {
   margin-bottom: 1.2rem;
@@ -400,6 +403,10 @@ header {
   background: #fff;
   box-shadow: 0 2px 8px rgba(30,40,90,0.07);
   overflow: hidden;
+  border-radius: 14px;
+  overflow: visible;
+  background: #f4f7ff;
+  box-shadow: 0 2px 8px rgba(58,141,222,0.04);
 }
 .faq-question {
   width: 100%;
@@ -414,25 +421,49 @@ header {
   text-align: left;
   cursor: pointer;
   transition: background 0.2s;
+  text-align: left;
+  background: #e6eaff;
+  color: #182266;
+  font-weight: 700;
+  font-size: 1.15rem;
+  border: none;
+  border-radius: 14px 14px 0 0;
+  padding: 16px 24px 14px 24px;
+  cursor: pointer;
+  outline: none;
 }
 .faq-question.active, .faq-question:hover {
   background: #e3e7fa;
 }
 .faq-answer {
-  max-height: 0;
-  overflow: hidden;
   background: #f6f7fb;
   color: #444;
   font-size: 1rem;
   padding: 0 1.5rem;
   transition: max-height 0.3s ease;
+  padding: 14px 24px 18px 24px;
+  background: #fff;
+  color: #222;
+  font-size: 1.08rem;
+  border-radius: 0 0 14px 14px;
+  word-break: break-word;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 .faq-question.active + .faq-answer {
+  max-height: 500px;
+  overflow: visible;
   padding: 1rem 1.5rem;
 }
 @media (max-width: 700px) {
   .faq-list {
     max-width: 98vw;
+    padding: 0 2vw;
+  }
+  .faq-question, .faq-answer {
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 1rem;
   }
 }
 .cadastro-container {
