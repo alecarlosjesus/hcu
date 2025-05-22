@@ -43,7 +43,7 @@ Facilitar a inclusão digital e o atendimento humanizado aos pacientes do Hospit
 - Pedro De Matos (RM: 564184)
 - Thiago Andrade (RM: 562493)
 - Vitor Hugo de Souza (RM: 559349)
-
+- Diogo Cunha (RM:563654)
 ---
 
 ## 🔗 Endereço do repositório no GITHUB
