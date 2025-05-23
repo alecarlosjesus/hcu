@@ -645,3 +645,29 @@ header {
     max-width: 100%;
   }
 }
+
+/* Estilo para a lista de integrantes na página de contato */
+.integrantes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0 auto 40px auto;
+}
+.integrante-card {
+  min-width: 220px;
+  align-items: center;
+  text-align: center;
+}
+.label {
+  font-weight: bold;
+  color: #3a8dde;
+}
+.email-link {
+  color: #222;
+  text-decoration: underline;
+}
+.rm-value {
+  color: #222;
+}
