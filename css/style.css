@@ -181,11 +181,12 @@ header {
     flex-wrap: wrap;
 }
 .sobre-img {
-    width: 370px;
-    height: 240px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 16px;
     box-shadow: 0 4px 24px rgba(56,151,233,0.10);
+    margin-left: 24px;
 }
 .sobre-info {
     max-width: 500px;
@@ -254,6 +255,13 @@ header {
     }
     .footer-col {
         padding: 4px 0;
+    }
+    .sobre-img {
+        width: 100%;
+        max-width: 320px;
+        height: 220px;
+        margin-left: 0;
+        margin-top: 18px;
     }
 }
 
@@ -579,4 +587,61 @@ header {
     .quem-somos {
         padding: 12px 6vw;
     }
+}
+
+.prototipo {
+  padding: 3rem 0 2rem 0;
+  background: #f8f9fa;
+  text-align: center;
+}
+.prototipo h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1a237e;
+}
+.prototipo p {
+  color: #444;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+.prot-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.prot-img {
+  max-width: 320px;
+  width: 100%;
+  height: 520px;
+  min-height: 320px;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 16px rgba(30,40,90,0.10);
+  background: #fff;
+  object-fit: contain; /* Alterado para não cortar a imagem */
+  object-position: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: block;
+}
+.prot-img:hover {
+  transform: scale(1.04);
+  box-shadow: 0 8px 24px rgba(30,40,90,0.18);
+}
+@media (max-width: 900px) {
+  .prot-imgs {
+    gap: 1.2rem;
+  }
+  .prot-img {
+    max-width: 220px;
+  }
+}
+@media (max-width: 600px) {
+  .prot-imgs {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .prot-img {
+    max-width: 100%;
+  }
 }
