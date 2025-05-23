@@ -48,7 +48,7 @@ Facilitar a inclusão digital e o atendimento humanizado aos pacientes do Hospit
 
 ## 🔗 Endereço do repositório no GITHUB
 
-[https://github.com/seu-usuario/HCBridge](https://github.com/seu-usuario/HCBridge)
+- https://github.com/1TDSPH-CHALLENGE1-HCBridge/HC_BRIDGE
 
 ---
 
